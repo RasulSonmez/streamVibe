@@ -118,17 +118,7 @@ body {
 
 /*Hero section*/
 .bg-hero {
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 10%,
-      rgba(0, 0, 0, 0.1) 60%,
-      rgba(0, 0, 0, 0.5) 64%,
-      rgba(0, 0, 0, 1) 100%
-    ),
-    url("/assets/images/bg-hero.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+ 
   height: 600px;
   position: relative;
 }
