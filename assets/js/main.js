@@ -1,4 +1,4 @@
-/*Hero slider*/
+/*Hero section hero slider*/
 
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
@@ -35,3 +35,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
   
+  /*Movies Section*/
+
+  /*our genres slider*/
+  var swiper = new Swiper(".ourGenresSwiper", {
+    slidesPerView: 5,
+    spaceBetween: 30,   
+  });
