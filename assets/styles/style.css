@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-  background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,0.9024859943977591) 2%, rgba(0,0,0,1) 100%);
+  background-color: #141414;
   font-family: "Manrope", serif;
   color: #fff;
 }
@@ -13,7 +12,7 @@ body {
   color: #bfbfbf;
 }
 
-.bg-dark-custom{
+.bg-dark-custom {
   background-color: #1a1a1a;
 }
 
@@ -121,9 +120,13 @@ body {
   border-radius: 8px;
 }
 
+.lh-2 {
+  line-height: 2rem;
+}
+
+
 /*Hero section*/
 .bg-hero {
- 
   height: 600px;
   position: relative;
 }
@@ -135,49 +138,138 @@ body {
   transform: translateX(-50%);
   color: white;
   text-align: center;
-  z-index: 2; 
+  z-index: 2;
 }
 
 /*swiperjs pagination custom*/
-.hero-slider-pagination .swiper-pagination-bullet swiper-pagination-bullet-active{
+
+.swiper-pagination-bullet .swiper-pagination-bullet-active {
   border-radius: 3px;
   width: 23px;
-  background: #E50000 !important;
+  background: #e50000 !important;
 }
-.hero-slider-pagination .swiper-pagination-bullet{
+.swiper-pagination-bullet {
   border-radius: 3px;
   width: 23px;
   height: 4px;
-  background: #E50000 !important;
+  background: #e50000 !important;
 }
 
-.hero-sliderswiper-button-next, .hero-sliderswiper-button-prev{
+.hero-sliderswiper-button-next,
+.hero-sliderswiper-button-prev {
   top: 95%;
 }
-.swiper-button-next:after, .swiper-button-prev:after{
+.swiper-button-next:after,
+.swiper-button-prev:after {
   content: "";
 }
-.swiper-button-prev {  
-  background-color: #E50000;
+.swiper-button-prev {
+  background-color: #1a1a1a;
   padding: 1rem;
-  height: 28px; 
-  border-radius: 5px;  
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
   background-image: url("/assets/images/arrow-left.svg") !important;
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: center;
 }
 
 .swiper-button-next {
-  background-color: #E50000;
+  background-color: #1a1a1a;
   padding: 1rem;
-  height: 28px; 
-  border-radius: 5px;  
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
   background-image: url("/assets/images/arrow-right.svg") !important;
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: center;
 }
 
 /*movies section*/
-.part-section-text{
+.part-section-text {
   top: -1rem;
+}
+
+
+/*our genres*/
+.genres-custom-pagination {
+  transform: translateX(-1%) !important;
+}
+
+.genres-custom-button-prev {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-left.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.genres-custom-button-next {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-right.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Popular Top 10 In Genres*/
+
+.popular-custom-pagination {
+  transform: translateX(-1%) !important;
+}
+
+.popular-custom-button-prev {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-left.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.popular-custom-button-next {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-right.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Trending Shows Now*/
+
+.trending-custom-pagination {
+  transform: translateX(-1%) !important;
+}
+
+.trending-custom-button-prev {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-left.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.trending-custom-button-next {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-right.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
 }

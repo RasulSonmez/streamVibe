@@ -263,180 +263,716 @@
     <section class="mb-5">
       <div class="container">
         <div class="border border-secondary rounded-3 p-4 position-relative">
-          <div
-            class="bg-danger fw-semibold fs-16-rem px-3 py-2 d-inline-block rounded-2 position-absolute part-section-text"
-          >
-            Movies
-          </div>
-          <div class="my-4">
-            <h1 class="fw-bold fs-30-rem">Our Genres</h1>
-          </div>
+          <!--Movies part-->
+          <div class="mb-5">
+            <div
+              class="bg-danger fw-semibold fs-16-rem px-3 py-2 d-inline-block rounded-2 position-absolute part-section-text"
+            >
+              Movies
+            </div>
+            <div
+              class="my-4 d-flex align-items-center justify-content-between lh-2"
+            >
+              <h1 class="fw-bold fs-30-rem text-nowrap">Our Genres</h1>
+              <div
+                class="d-flex align-content-center bg-black p-2 rounded-3 text-center"
+              >
+                <div class="genres-custom-button-prev me-2 me-lg-0"></div>
+                <div class="genres-custom-pagination d-none d-lg-block"></div>
+                <div class="genres-custom-button-next"></div>
+              </div>
+            </div>
 
-          <!--Slider Genres-->
-          <div>
-            <div class="swiper ourGenresSwiper">
-              <div class="swiper-wrapper">
-                <!--item 1-->
-                <div class="swiper-slide">
-                  <a
-                    href="#"
-                    class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
-                  >
-                    <div class="mb-2 text-center">
-                      <img
-                        class="img-fluid"
-                        src="/assets/images/genres-1.png"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="d-flex align-items-center justify-content-between mb-3"
+            <!--Slider Genres-->
+            <div>
+              <div class="swiper ourGenresSwiper">
+                <div class="swiper-wrapper">
+                  <!--item 1-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
                     >
-                      <span class="fw-semibold fs-16-rem">Action</span>
-                      <i class="bx bx-right-arrow-alt fs-22-rem"></i>
-                    </div>
-                  </a>
-                </div>
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/genres-1.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Action</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
 
-                <!--item 2-->
-                <div class="swiper-slide">
-                  <a
-                    href="#"
-                    class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
-                  >
-                    <div class="mb-2 text-center">
-                      <img
-                        class="img-fluid"
-                        src="/assets/images/genres-2.png"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="d-flex align-items-center justify-content-between mb-3"
+                  <!--item 2-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
                     >
-                      <span class="fw-semibold fs-16-rem">Action</span>
-                      <i class="bx bx-right-arrow-alt fs-22-rem"></i>
-                    </div>
-                  </a>
-                </div>
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/genres-2.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Adventure</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
 
-                <!--item 3-->
-                <div class="swiper-slide">
-                  <a
-                    href="#"
-                    class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
-                  >
-                    <div class="mb-2 text-center">
-                      <img
-                        class="img-fluid"
-                        src="/assets/images/genres-3.png"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="d-flex align-items-center justify-content-between mb-3"
+                  <!--item 3-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
                     >
-                      <span class="fw-semibold fs-16-rem">Action</span>
-                      <i class="bx bx-right-arrow-alt fs-22-rem"></i>
-                    </div>
-                  </a>
-                </div>
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/genres-3.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Comedy</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
 
-                <!--item 4-->
-                <div class="swiper-slide">
-                  <a
-                    href="#"
-                    class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
-                  >
-                    <div class="mb-2 text-center">
-                      <img
-                        class="img-fluid"
-                        src="/assets/images/genres-4.png"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="d-flex align-items-center justify-content-between mb-3"
+                  <!--item 4-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
                     >
-                      <span class="fw-semibold fs-16-rem">Action</span>
-                      <i class="bx bx-right-arrow-alt fs-22-rem"></i>
-                    </div>
-                  </a>
-                </div>
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/genres-4.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Drama</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
 
-                <!--item 5-->
-                <div class="swiper-slide">
-                  <a
-                    href="#"
-                    class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
-                  >
-                    <div class="mb-2 text-center">
-                      <img
-                        class="img-fluid"
-                        src="/assets/images/genres-5.png"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="d-flex align-items-center justify-content-between mb-3"
+                  <!--item 5-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
                     >
-                      <span class="fw-semibold fs-16-rem">Action</span>
-                      <i class="bx bx-right-arrow-alt fs-22-rem"></i>
-                    </div>
-                  </a>
-                </div>
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/genres-5.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Horror</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
 
-                <!--item 6-->
-                <div class="swiper-slide">
-                  <a
-                    href="#"
-                    class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
-                  >
-                    <div class="mb-2 text-center">
-                      <img
-                        class="img-fluid"
-                        src="/assets/images/genres-1.png"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="d-flex align-items-center justify-content-between mb-3"
+                  <!--item 6-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
                     >
-                      <span class="fw-semibold fs-16-rem">Action</span>
-                      <i class="bx bx-right-arrow-alt fs-22-rem"></i>
-                    </div>
-                  </a>
-                </div>
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/genres-1.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Action</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
 
-                <!--item 7-->
-                <div class="swiper-slide">
-                  <a
-                    href="#"
-                    class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
-                  >
-                    <div class="mb-2 text-center">
-                      <img
-                        class="img-fluid"
-                        src="/assets/images/genres-2.png"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="d-flex align-items-center justify-content-between mb-3"
+                  <!--item 7-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
                     >
-                      <span class="fw-semibold fs-16-rem">Action</span>
-                      <i class="bx bx-right-arrow-alt fs-22-rem"></i>
-                    </div>
-                  </a>
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/genres-2.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Adventure</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
-              <div class="swiper-pagination hero-slider-pagination"></div>
+            </div>
+          </div>
+
+          <hr class="my-5" />
+          <!--Popular Top 10 In Genres part-->
+          <div class="mb-5">
+            <div
+              class="my-4 d-flex align-items-center justify-content-between lh-2"
+            >
+              <h1 class="fw-bold fs-30-rem">Popular Top 10 In Genres</h1>
+              <div
+                class="d-flex align-content-center bg-black p-2 rounded-3 text-center"
+              >
+                <div class="popular-custom-button-prev me-2 me-lg-0"></div>
+                <div class="popular-custom-pagination d-none d-lg-block"></div>
+                <div class="popular-custom-button-next"></div>
+              </div>
+            </div>
+
+            <!--Slider Popular Top 10 In Genres-->
+            <div>
+              <div class="swiper popularTop10InGenresSwiper">
+                <div class="swiper-wrapper">
+                  <!--item 1-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/popular-1.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-inline-block bg-danger py-1 px-2 fs-9-rem rounded-2"
+                      >
+                        Top 10 In
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Action</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!--item 2-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/popular-2.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-inline-block bg-danger py-1 px-2 fs-9-rem rounded-2"
+                      >
+                        Top 10 In
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Adventure</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!--item 3-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/popular-3.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-inline-block bg-danger py-1 px-2 fs-9-rem rounded-2"
+                      >
+                        Top 10 In
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Comedy</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!--item 4-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/popular-4.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-inline-block bg-danger py-1 px-2 fs-9-rem rounded-2"
+                      >
+                        Top 10 In
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Drama</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!--item 5-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/popular-1.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-inline-block bg-danger py-1 px-2 fs-9-rem rounded-2"
+                      >
+                        Top 10 In
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Horror</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!--item 6-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/popular-2.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-inline-block bg-danger py-1 px-2 fs-9-rem rounded-2"
+                      >
+                        Top 10 In
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Action</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!--item 7-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-2 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/popular-3.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="d-inline-block bg-danger py-1 px-2 fs-9-rem rounded-2"
+                      >
+                        Top 10 In
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-3"
+                      >
+                        <span class="fw-semibold fs-16-rem">Adventure</span>
+                        <i class="bx bx-right-arrow-alt fs-22-rem"></i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-5" />
+          <!--Trending Shows Now part-->
+          <div class="mb-5">
+            <div
+              class="my-4 d-flex align-items-center justify-content-between lh-2"
+            >
+              <h1 class="fw-bold fs-30-rem">Trending Shows Now</h1>
+              <div
+                class="d-flex align-content-center bg-black p-2 rounded-3 text-center"
+              >
+                <div class="trending-custom-button-prev me-2 me-lg-0"></div>
+                <div class="trending-custom-pagination d-none d-lg-block"></div>
+                <div class="trending-custom-button-next"></div>
+              </div>
+            </div>
+
+            <!--Slider Trending Shows Now-->
+            <div>
+              <div class="swiper trendingShowsNowSwiper">
+                <div class="swiper-wrapper">
+                  <!--item 1-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-3 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/trending-1.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <div
+                        class="d-flex align-items-center justify-content-between flex-wrap"
+                      >
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/clock-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">8h 20min</span>
+                        </div>
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/season-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">4 Season</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!--item 2-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-3 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/trending-2.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <div
+                        class="d-flex align-items-center justify-content-between flex-wrap"
+                      >
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/clock-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">12h 23min</span>
+                        </div>
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/season-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">5 Season</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!--item 3-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-3 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/trending-3.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <div
+                        class="d-flex align-items-center justify-content-between flex-wrap"
+                      >
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/clock-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">14h 3min</span>
+                        </div>
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/season-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">3 Season</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!--item 4-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-3 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/trending-4.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <div
+                        class="d-flex align-items-center justify-content-between flex-wrap"
+                      >
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/clock-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">7h 40min</span>
+                        </div>
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/season-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">2 Season</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!--item 5-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-3 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/trending-1.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <div
+                        class="d-flex align-items-center justify-content-between flex-wrap"
+                      >
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/clock-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">8h 20min</span>
+                        </div>
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/season-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">4 Season</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!--item 6-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-3 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/trending-2.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <div
+                        class="d-flex align-items-center justify-content-between flex-wrap"
+                      >
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/clock-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">8h 20min</span>
+                        </div>
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/season-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">4 Season</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!--item 7-->
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="d-block bg-dark-custom p-3 rounded-3 text-decoration-none text-white"
+                    >
+                      <div class="mb-3 text-center">
+                        <img
+                          class="img-fluid"
+                          src="/assets/images/trending-3.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <div
+                        class="d-flex align-items-center justify-content-between flex-wrap"
+                      >
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/clock-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">8h 20min</span>
+                        </div>
+                        <div
+                          class="d-flex align-items-center bg-black border-gray-light py-1 px-2 rounded-5"
+                        >
+                          <img
+                            class="img-fluid me-1"
+                            src="/assets/images/season-icon.svg"
+                            alt="clock-icon"
+                          />
+                          <span class="fw-semibold fs-12-rem">4 Season</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!--Movies finish-->
+
     <!--Bootstrap Js-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
