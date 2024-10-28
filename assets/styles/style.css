@@ -2,14 +2,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-  background-color: #1e1e1e;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0.9024859943977591) 2%, rgba(0,0,0,1) 100%);
   font-family: "Manrope", serif;
   color: #fff;
 }
 
-/*color*/
+/*color background*/
 .color-gray-light {
   color: #bfbfbf;
+}
+
+.bg-dark-custom{
+  background-color: #1a1a1a;
 }
 
 /*font size*/
