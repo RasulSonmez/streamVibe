@@ -16,6 +16,10 @@ body {
   background-color: #1a1a1a;
 }
 
+.bg-dark-light-custom {
+  background-color: #363434;
+}
+
 /*font size*/
 .fs-8-rem {
   font-size: 0.5rem; /* 8px */
@@ -124,6 +128,10 @@ body {
   line-height: 2rem;
 }
 
+
+.mb-8-rem{
+  margin-bottom: 8rem;
+}
 
 /*Hero section*/
 .bg-hero {
@@ -272,4 +280,207 @@ body {
   background-image: url("/assets/images/arrow-right.svg") !important;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/*New Releases*/
+
+.releases-custom-pagination {
+  transform: translateX(-1%) !important;
+}
+
+.releases-custom-button-prev {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-left.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.releases-custom-button-next {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-right.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Must - Watch Movies*/
+
+.watchMovies-custom-pagination {
+  transform: translateX(-1%) !important;
+}
+
+.watchMovies-custom-button-prev {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-left.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.watchMovies-custom-button-next {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-right.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Shows section*/
+
+/*our genres*/
+.showsGenres-custom-pagination {
+  transform: translateX(-1%) !important;
+}
+
+.showsGenres-custom-button-prev {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-left.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.showsGenres-custom-button-next {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-right.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Popular Top 10 In Genres*/
+
+.showsPopular-custom-pagination {
+  transform: translateX(-1%) !important;
+}
+
+.showsPopular-custom-button-prev {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-left.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.showsPopular-custom-button-next {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-right.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Trending Shows Now*/
+
+.showsTrending-custom-pagination {
+  transform: translateX(-1%) !important;
+}
+
+.showsTrending-custom-button-prev {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-left.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.showsTrending-custom-button-next {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-right.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*New Releases*/
+
+.showsReleases-custom-pagination {
+  transform: translateX(-1%) !important;
+}
+
+.showsReleases-custom-button-prev {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-left.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.showsReleases-custom-button-next {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-right.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Must - Watch Movies*/
+
+.showsWatchMovies-custom-pagination {
+  transform: translateX(-1%) !important;
+}
+
+.showsWatchMovies-custom-button-prev {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-left.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.showsWatchMovies-custom-button-next {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+  background-image: url("/assets/images/arrow-right.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Trail Banner Section*/
+.bg-trail{
+  background: url('/assets/images/trail-bg.png');
+  background-repeat: no-repeat;
 }

@@ -98,7 +98,7 @@ var swiper = new Swiper(".popularTop10InGenresSwiper", {
   },
 });
 
-/*P Trending Shows Now slider*/
+/*Trending Shows Now slider*/
 var swiper = new Swiper(".trendingShowsNowSwiper", {
   slidesPerView: 2,
   spaceBetween: 10,
@@ -108,6 +108,220 @@ var swiper = new Swiper(".trendingShowsNowSwiper", {
   },
   pagination: {
     el: ".trending-custom-pagination",
+    clickable: true,
+    dynamicBullets: true,
+    dynamicMainBullets: 2,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 50,
+    },
+  },
+});
+
+/*New Releases slider*/
+var swiper = new Swiper(".releasesSwiper", {
+  slidesPerView: 2,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".releases-custom-button-next",
+    prevEl: ".releases-custom-button-prev",
+  },
+  pagination: {
+    el: ".releases-custom-pagination",
+    clickable: true,
+    dynamicBullets: true,
+    dynamicMainBullets: 2,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 50,
+    },
+  },
+});
+
+/*Must - Watch Movies*/
+var swiper = new Swiper(".watchMoviesSwiper", {
+  slidesPerView: 2,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".watchMovies-custom-button-next",
+    prevEl: ".watchMovies-custom-button-prev",
+  },
+  pagination: {
+    el: ".watchMovies-custom-pagination",
+    clickable: true,
+    dynamicBullets: true,
+    dynamicMainBullets: 2,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 50,
+    },
+  },
+});
+
+
+
+/*Shows Section*/
+
+/*our genres slider*/
+var swiper = new Swiper(".showsGenresSwiper", {
+  slidesPerView: 2,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".showsGenres-custom-button-next",
+    prevEl: ".showsGenres-custom-button-prev",
+  },
+  pagination: {
+    el: ".showsGenres-custom-pagination",
+    clickable: true,
+    dynamicBullets: true,
+    dynamicMainBullets: 2,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 50,
+    },
+  },
+});
+
+/*Popular Top 10 In Genres slider*/
+var swiper = new Swiper(".showsPopularTop10InGenresSwiper", {
+  slidesPerView: 2,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".showsPopular-custom-button-next",
+    prevEl: ".showsPopular-custom-button-prev",
+  },
+  pagination: {
+    el: ".showsPopular-custom-pagination",
+    clickable: true,
+    dynamicBullets: true,
+    dynamicMainBullets: 2,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 50,
+    },
+  },
+});
+
+/*Trending Shows Now slider*/
+var swiper = new Swiper(".showsTrendingShowsNowSwiper", {
+  slidesPerView: 2,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".showsTrending-custom-button-next",
+    prevEl: ".showsTrending-custom-button-prev",
+  },
+  pagination: {
+    el: ".showsTrending-custom-pagination",
+    clickable: true,
+    dynamicBullets: true,
+    dynamicMainBullets: 2,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 50,
+    },
+  },
+});
+
+/*New Releases slider*/
+var swiper = new Swiper(".showsReleasesSwiper", {
+  slidesPerView: 2,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".showsReleases-custom-button-next",
+    prevEl: ".showsReleases-custom-button-prev",
+  },
+  pagination: {
+    el: ".showsReleases-custom-pagination",
+    clickable: true,
+    dynamicBullets: true,
+    dynamicMainBullets: 2,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 50,
+    },
+  },
+});
+
+/*Must - Watch Movies*/
+var swiper = new Swiper(".showsWatchMoviesSwiper", {
+  slidesPerView: 2,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".showsWatchMovies-custom-button-next",
+    prevEl: ".showsWatchMovies-custom-button-prev",
+  },
+  pagination: {
+    el: ".showsWatchMovies-custom-pagination",
     clickable: true,
     dynamicBullets: true,
     dynamicMainBullets: 2,
